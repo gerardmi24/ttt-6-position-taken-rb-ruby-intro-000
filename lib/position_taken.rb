@@ -3,7 +3,10 @@ def position_taken?(board, index)
   if board("X")
     puts true
   end
-  else board("O")
+  elsif board("O")
     puts true
+  end
+  else
+    puts false
   end
 end
