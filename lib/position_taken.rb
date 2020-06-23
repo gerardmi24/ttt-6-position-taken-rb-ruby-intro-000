@@ -4,7 +4,8 @@ def position_taken?(board, index)
     return true
   elsif board_include? "O"
     return true
-  else
+  elsif board_include? " "
     return false
   end
 end
+
