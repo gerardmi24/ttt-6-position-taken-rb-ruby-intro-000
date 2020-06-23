@@ -1,12 +1,11 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
-  if board("X")
+  if board.include? "X"
     puts true
-  end
-  elsif board("O")
+  elsif board_include? "O"
     puts true
-  end
   else
     puts false
   end
 end
+
