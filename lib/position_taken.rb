@@ -8,11 +8,3 @@ def position_taken?(board, index)
     return false
   end
 end
-
-def villain_finder(arr)
-  if arr.include? "Voldemort"
-    puts "Voldemort is lurking in their midsts!"
-  else
-    puts "All clear!"
-  end
-end
